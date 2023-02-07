@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.slogan {
+  z-index: 2;
+  height: 35vw;
+  margin: 7% 5% 15% 5%;
+  display: flex;
+}
+
+.text {
+  flex: 3;
+  height: 100%;
+  text-align: left;
+  padding-right: 5%;
+}
+
+.title {
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.img {
+  width: 100px;
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 2%;
+}
