@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+}
+
+.icon {
+  flex: 1;
+  height: 100px;
+}
+
+.nav {
+  flex: 8;
+}
+
+.link {
+  text-decoration: none;
+  padding: 1%;
+  color: #181308;
+}
+
+.linkActive {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1%;
+  color: #181308;
+}
+
+.button {
+  flex: 1;
+  background-color: black;
+  height: "50px";
+}

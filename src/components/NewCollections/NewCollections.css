@@ -1,0 +1,16 @@
+.newCollections {
+  
+}
+
+.newCollectionsTitle {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.strip {
+  border: 1px solid #EDBF52;
+  height: 100px;
+}

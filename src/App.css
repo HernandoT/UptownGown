@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 5%;
   font-family: 'Poppins', sans-serif;
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */

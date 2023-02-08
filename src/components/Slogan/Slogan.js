@@ -5,9 +5,9 @@ const Slogan = () => {
   return (
     <div className="slogan">
       <div className="text">
-        <h1 className="title">Slogan here</h1>
-        <h1 className="title">Lorem Ipsum</h1>
-        <p>Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <h1 className="sloganTitle">Slogan here</h1>
+        <h1 className="sloganTitle">Lorem Ipsum</h1>
+        <p className="desc">Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
 
       <img src={img} alt="" className="img" />
