@@ -1,7 +1,5 @@
-@import "react-alice-carousel/lib/alice-carousel.css";
-
 .newCollections {
-  
+  margin: 15% 5%;
 }
 
 .newCollectionsTitle {
@@ -16,8 +14,8 @@
 
 .strip {
   border: 1px solid #EDBF52;
-  height: 3rem;
-  margin-right: 2%;
+  height: 4rem;
+  margin-right: 3%;
 }
 
 .newCollectionsTitle > p {

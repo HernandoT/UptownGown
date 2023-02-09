@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  padding: 0 5%;
+  border-top: 5px solid #EDBF52;
+}
+
+.footerLogo {
+  width: 35%;
+}
+
+.footerLogo > img {
+  width: 100%;
+}
+
+.footerCompany {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerSupport {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
