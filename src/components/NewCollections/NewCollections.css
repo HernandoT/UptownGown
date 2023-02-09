@@ -1,3 +1,5 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 .newCollections {
   
 }
@@ -8,9 +10,16 @@
   margin: 5px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  height: 10vh;
 }
 
 .strip {
   border: 1px solid #EDBF52;
-  height: 100px;
+  height: 3rem;
+  margin-right: 2%;
+}
+
+.newCollectionsTitle > p {
+  margin: 0;
 }

@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  height: 100%;
   width: 90vw;
 }
 
@@ -10,5 +10,5 @@
   right: 0;
   z-index: -1;
   width: 30vw;
-  height: 90vh;
+  height: 85vh;
 }
