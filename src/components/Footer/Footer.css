@@ -25,3 +25,9 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.footerIcon {
+  color: #EDBF52;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}

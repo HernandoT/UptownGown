@@ -1,4 +1,5 @@
 import "./Testimonials.css";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
@@ -10,7 +11,7 @@ const Testimonials = () => {
       <div className="testimonialsContent">
         {Array.from({ length: 3 }).map((testimonial, index) => (
           <div className="testimonial" key={index}>
-            <div className="testimonialIcon">"</div>
+            <FaQuoteLeft className="testimonialIcon"/>
             <div className="testimonialText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}

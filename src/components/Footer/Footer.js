@@ -1,5 +1,6 @@
 import "./Footer.css";
-import logo from "../../utils/assets/logo.jpg"
+import logo from "../../utils/assets/logo.jpg";
+import { FaWhatsapp ,FaEnvelope ,FaInstagram} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,9 +21,9 @@ const Footer = () => {
         <p>
           <b>Support</b>
         </p>
-        <p>+6221 11223344</p>
-        <p>lorem@email.com</p>
-        <p>uptown.gown</p>
+        <p><FaWhatsapp className="footerIcon"/>+6221 11223344</p>
+        <p><FaEnvelope className="footerIcon"/>lorem@email.com</p>
+        <p><FaInstagram className="footerIcon"/>uptown.gown</p>
       </div>
     </div>
   );
