@@ -12,6 +12,8 @@ const NewCollections = () => {
         <p>New Collections</p>
       </div>
       <Carousel
+        autoplay={true}
+        autoplayDelay={3000}
         containerProps={{
           style: {
             width: "100%",
@@ -27,23 +29,23 @@ const NewCollections = () => {
         }}
         onRequestChange={setActiveSlide}
         forwardBtnProps={{
-          // children: ">",
+          children: ">",
           style: {
-            // width: 60,
-            // height: 60,
-            // minWidth: 60,
-            // alignSelf: "center",
-            display: "none",
+            width: 60,
+            height: 60,
+            minWidth: 60,
+            alignSelf: "center",
+            // display: "none",
           },
         }}
         backwardBtnProps={{
-          // children: "<",
+          children: "<",
           style: {
-            // width: 60,
-            // height: 60,
-            // minWidth: 60,
-            // alignSelf: "center",
-            display: "none",
+            width: 60,
+            height: 60,
+            minWidth: 60,
+            alignSelf: "center",
+            // display: "none",
           },
         }}
         dotsNav={{
@@ -74,11 +76,10 @@ const NewCollections = () => {
           <div
             style={{
               background: "yellow",
-              width: 400,
-              height: 400,
-              border: "30px solid white",
+              width: "20vw",
+              height: "20vw",
+              border: "20px solid white",
               textAlign: "center",
-              lineHeight: "240px",
               boxSizing: "border-box",
             }}
             key={index}
