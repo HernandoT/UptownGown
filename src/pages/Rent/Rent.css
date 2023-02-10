@@ -3,7 +3,7 @@
     height: 100%;
 }
 
-.content {
+.rentContent {
     margin: 7% 5%;
     display: flex;
     gap: 3%;
@@ -13,7 +13,7 @@
     flex: 1;
 }
 
-.filter > hr {
+.filter>hr {
     margin: 5% 0;
 }
 
@@ -31,8 +31,25 @@
     margin: 8px;
 }
 
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.1rem;
+    width: 10%;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 1.2em;
+    height: 1.2em;
+}
+
 .filterItems {
     flex: 3;
     border: 1px solid black;
 }
-

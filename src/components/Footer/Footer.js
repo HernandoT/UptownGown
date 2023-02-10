@@ -21,9 +21,9 @@ const Footer = () => {
         <p>
           <b>Support</b>
         </p>
-        <p><FaWhatsapp className="footerIcon"/>+6221 11223344</p>
-        <p><FaEnvelope className="footerIcon"/>lorem@email.com</p>
-        <p><FaInstagram className="footerIcon"/>uptown.gown</p>
+        <p style={{display: "flex", alignItems: "center"}}><FaWhatsapp className="footerIcon"/>+6221 11223344</p>
+        <p style={{display: "flex", alignItems: "center"}}><FaEnvelope className="footerIcon"/>lorem@email.com</p>
+        <p style={{display: "flex", alignItems: "center"}}><FaInstagram className="footerIcon"/>uptown.gown</p>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 const Rent = () => {
   return (
     <div className="rent">
-      <div className="content">
+      <div className="rentContent">
         <div className="filter">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <p>
@@ -24,8 +24,43 @@ const Rent = () => {
             </div>
           </div>
           <hr />
+          <p>
+            <b>Category</b>
+          </p>
+          <div className="checkboxContainer">
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+          </div>
+          <hr />
+          <p>
+            <b>Category</b>
+          </p>
+          <div className="checkboxContainer">
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+            <label className="checkbox">
+              <input type="checkbox" />
+              <span style={{marginLeft: "5px"}}>Label</span>
+            </label>
+          </div>
         </div>
-        <div className="filterItems">Filter   Items</div>
+        <div className="filterItems">Filter Items</div>
       </div>
       <Footer />
     </div>
