@@ -1,5 +1,6 @@
 import "./Rent.css";
 import Footer from "../../components/Footer/Footer";
+import PaginatedItems from "../../components/Pagination/PaginatedItems";
 
 const Rent = () => {
   return (
@@ -60,7 +61,9 @@ const Rent = () => {
             </label>
           </div>
         </div>
-        <div className="filterItems">Filter Items</div>
+        <div className="filterItems">
+          <PaginatedItems itemsPerPage={4} />
+        </div>
       </div>
       <Footer />
     </div>
