@@ -2,11 +2,11 @@
   width: 100%;
   height: 70vh;
   background-color: #FDF9EE;
-  margin: 15% 0;
+  margin: 7% 0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: #FFFFFF;
+  color: black;
   font-weight: bold;
 }
