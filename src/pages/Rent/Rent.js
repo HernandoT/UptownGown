@@ -62,7 +62,7 @@ const Rent = () => {
           </div>
         </div>
         <div className="filterItems">
-          <PaginatedItems itemsPerPage={4} />
+          <PaginatedItems itemsPerPage={8} />
         </div>
       </div>
       <Footer />

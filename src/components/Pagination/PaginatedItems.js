@@ -1,9 +1,10 @@
+import "./PaginatedItems.css";
 import { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
 import PaginationItems from "./PaginationItems";
 
 const PaginatedItems = ({ itemsPerPage }) => {
-  const items = [...Array(35).keys()];
+  const items = [...Array(100).keys()];
 
   // We start with an empty list of items.
   const [currentItems, setCurrentItems] = useState(null);
@@ -35,19 +36,19 @@ const PaginatedItems = ({ itemsPerPage }) => {
       <ReactPaginate
         nextLabel=">"
         onPageChange={handlePageClick}
-        pageRangeDisplayed={3}
+        pageRangeDisplayed={2}
         marginPagesDisplayed={2}
         pageCount={pageCount}
         previousLabel="<"
-        pageClassName="page-item"
-        pageLinkClassName="page-link"
-        previousClassName="page-item"
-        previousLinkClassName="page-link"
-        nextClassName="page-item"
-        nextLinkClassName="page-link"
+        pageClassName="pageItem"
+        pageLinkClassName="pageLink"
+        previousClassName="pageItem"
+        previousLinkClassName="pageLink"
+        nextClassName="pageItem"
+        nextLinkClassName="pageLink"
         breakLabel="..."
-        breakClassName="page-item"
-        breakLinkClassName="page-link"
+        breakClassName="pageItemBreak"
+        breakLinkClassName="pageLinkBreak"
         containerClassName="pagination"
         activeClassName="active"
         renderOnZeroPageCount={null}
