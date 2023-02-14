@@ -37,7 +37,7 @@ const PaginatedItems = ({ itemsPerPage }) => {
         nextLabel=">"
         onPageChange={handlePageClick}
         pageRangeDisplayed={2}
-        marginPagesDisplayed={2}
+        marginPagesDisplayed={1}
         pageCount={pageCount}
         previousLabel="<"
         pageClassName="pageItem"
