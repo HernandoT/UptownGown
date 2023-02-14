@@ -16,6 +16,7 @@ const Appointment = () => {
             onChange={(date) => setStartDate(date)}
             inline
             minDate={new Date()}
+            // excludeDates={[new Date(), subDays(new Date(), 1)]}
           />
         </div>
         <div className="appointmentText">
