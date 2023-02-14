@@ -1,11 +1,23 @@
+import { useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import "./Appointment.css";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const Appointment = () => {
+  const [startDate, setStartDate] = useState(new Date());
+
   return (
     <div className="content">
       <div className="appointmentContent">
-        <div className="appointmentCalendar">Calendar</div>
+        <div className="appointmentCalendar">
+          <DatePicker
+            selected={startDate}
+            onChange={(date) => setStartDate(date)}
+            inline
+            minDate={new Date()}
+          />
+        </div>
         <div className="appointmentText">
           <p className="appointmentTitle">Make an appointment</p>
           <p>
