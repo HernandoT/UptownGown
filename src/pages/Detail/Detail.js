@@ -1,9 +1,11 @@
 import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 import "./Detail.css";
 
 const Detail = () => {
   return (
     <div className="detail">
+      <Navbar />
       <div className="detailContent">
         <div className="detailImage">
           <div className="detailImage1">Image 1</div>

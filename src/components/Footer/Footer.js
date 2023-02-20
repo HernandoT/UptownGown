@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../utils/assets/logo.jpg";
+import logo from "../../utils/assets/logo.png";
 import { FaWhatsapp ,FaEnvelope ,FaInstagram} from "react-icons/fa";
 
 const Footer = () => {

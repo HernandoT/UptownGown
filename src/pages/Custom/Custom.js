@@ -1,9 +1,11 @@
 import "./Custom.css";
 import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Custom = () => {
   return (
     <div className="custom">
+      <Navbar />
       <div className="customContent">
         <div className="customBox">
           <div className="customLogo">X</div>

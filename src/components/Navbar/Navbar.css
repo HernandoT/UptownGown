@@ -10,8 +10,8 @@
 }
 
 .icon {
-  flex: 1;
   height: 100px;
+  margin-left: 3%;
 }
 
 .nav {

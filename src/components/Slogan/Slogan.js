@@ -1,5 +1,5 @@
 import "./Slogan.css";
-import img from "../../utils/assets/logo.jpg";
+import img from "../../utils/assets/logo.png";
 
 const Slogan = () => {
   return (

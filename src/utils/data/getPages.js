@@ -9,7 +9,7 @@ let pages = [
   },
   {
     name: "Custom",
-    route: "custom",
+    route: "/custom",
   },
   {
     name: "Appointment",

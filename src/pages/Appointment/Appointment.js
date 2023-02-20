@@ -3,12 +3,14 @@ import Footer from "../../components/Footer/Footer";
 import "./Appointment.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Appointment = () => {
   const [startDate, setStartDate] = useState(new Date());
 
   return (
     <div className="content">
+      <Navbar />
       <div className="appointmentContent">
         <div className="appointmentCalendar">
           <DatePicker
