@@ -8,7 +8,7 @@ const NewCollections = () => {
   return (
     <div className="newCollections">
       <div className="newCollectionsTitle">
-        <div className="strip"></div>
+        <div className="newCollectionStrip"></div>
         <p>New Collections</p>
       </div>
       <Carousel
@@ -35,7 +35,7 @@ const NewCollections = () => {
             height: 60,
             minWidth: 60,
             alignSelf: "center",
-            // display: "none",
+            display: "none",
           },
         }}
         backwardBtnProps={{
@@ -45,7 +45,7 @@ const NewCollections = () => {
             height: 60,
             minWidth: 60,
             alignSelf: "center",
-            // display: "none",
+            display: "none",
           },
         }}
         dotsNav={{
@@ -69,7 +69,7 @@ const NewCollections = () => {
             },
           },
         }}
-        itemsToShow={4}
+        itemsToShow={5}
         speed={400}
       >
         {Array.from({ length: 10 }).map((item, index) => (

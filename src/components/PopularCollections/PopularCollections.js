@@ -4,7 +4,7 @@ const PopularCollections = () => {
   return (
     <div className="popularCollections">
       <div className="popularCollectionsTitle">
-        <div className="strip"></div>
+        <div className="popularCollectionstrip"></div>
         <p>Popular Collections</p>
       </div>
       <div className="popularCollectionsContent">
